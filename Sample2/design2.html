@@ -4,51 +4,110 @@
 	<title>Title</title>
 	<meta charset="UTF-8">
 	<style>
-		body {
-            width: 80%;
+        body {
+            width: 70%;
         }
         h1 {
             text-transform: uppercase;
             font-size: 76px;
             text-align: center;
             color: #606060;
-        }
-        #banner {
-            background-color: blue;
-            width: 100%
-        }
-        blue {
-            width: 70%;
+            margin-bottom: 15px;
         }
         #page {
             border-collapse: collapse;
         }
-	</style>
+        #banner {
+            background-color: blue;
+            width: 90%;
+            margin-left: 40px;
+            margin-top: 0px;
+            padding-left: 10px;
+            padding-right: 50px;
+        }
+        #left {
+            text-align: left;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            width: 40%;
+        }
+        #middle {
+            text-align: middle;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            padding-left: 30px;
+            width: 30%;
+        }
+        #right {
+            text-align: right;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;  
+            width: 30%;         
+        }
+        h2 {
+            font-size: 48px;
+            font-family: fantasy;
+            text-transform: uppercase;
+            text-align: center;
+            color: dimgray;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 280px;
+            padding-left: 20px; 
+        }
+        #coupon {
+            color: red;
+            text-align: center;
+            font-family: serif;
+            font-weight: bold;
+            font-size: 22px;
+            border-style: dotted;
+            border-color: black;
+            width: 275px;
+            height: 160px;
+            margin-left: 20px;
+            padding-top: 5px;
+        }
+    </style>
 </head>
 <body>
 	<table id="page">
 		<tr>
             <h1>The daily news</h1>
         </tr>
-        <tr id="banner">
-            <td class=blue>Schoolname.com</td>
-            <td class=blue>The school's best news</td>
-            <td class=blue>&#36; 1.00</td>
+        <table id="banner">
+            <tr>
+                <td id="left">Schoolname.com</td>
+                <td id="middle">This school's best news</td>
+                <td id="right">&#36; 1.00</td>
+            </tr>
+        </table>
+        <tr>
+            <h2>Your headline goes here</h2>
         </tr>
-        <tr>Your headline goes here</tr>
         <tr>
             <td>
-                <table>
-                    <tr>
-                        Picture     
-                    </tr>
-                    <tr>
-                        Coupon    
-                    </tr>
-                </table>
+                <tr>
+                    <img src="image/pic.png" alt="insert-here"/>
+                </tr>
+                <tr>
+                    <p id="coupon">- Coupon -</p>    
+                </tr>
             </td>
-            <td>
-                Bibbity
+            <td> 
+                <h3>Bibbity</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus nunc risus, in aliquam leo cursus quis. Nulla sollicitudin, arcu ac volutpat viverra, ipsum nibh accumsan neque, tristique vehicula nisi nisl ac arcu. Cras sed lectus dapibus, vehicula risus sed, convallis diam. Vestibulum convallis risus id scelerisque finibus. Quisque facilisis erat et turpis dapibus pharetra. Suspendisse commodo felis vitae diam efficitur, et viverra dui aliquet. Praesent finibus eget dui ut rhoncus. 
+                <p>
             </td>
             <td>
                 Boo
