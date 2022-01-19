@@ -24,13 +24,14 @@
             margin-top: 0px;
             padding-left: 10px;
             padding-right: 50px;
+            padding-bottom: 2px;
         }
         #left {
             text-align: left;
             color: white;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
+            font-size: 16px;
             width: 40%;
         }
         #middle {
@@ -39,7 +40,7 @@
             font-weight: bold;
             text-transform: uppercase;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
+            font-size: 17px;
             padding-left: 30px;
             width: 30%;
         }
@@ -48,11 +49,11 @@
             color: white;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;  
+            font-size: 16px;  
             width: 30%;         
         }
         h2 {
-            font-size: 48px;
+            font-size: 52px;
             font-family: fantasy;
             text-transform: uppercase;
             text-align: center;
@@ -61,7 +62,7 @@
             margin-bottom: 10px;
         }
         img {
-            width: 280px;
+            width: 310px;
             padding-left: 20px; 
         }
         #coupon {
@@ -72,10 +73,51 @@
             font-size: 22px;
             border-style: dotted;
             border-color: black;
-            width: 275px;
-            height: 160px;
+            width: 305px;
+            height: 180px;
             margin-left: 20px;
             padding-top: 5px;
+            margin-bottom: 0px;
+        }
+        .text1, .text2 {
+            width: 80%;
+            text-align: left;
+            margin-left: 50px;
+            font-family: serif;
+            font-size: 19px;
+            
+        }
+        .text1 {
+            width: 65%;
+            padding-bottom: 4px;
+        }
+        .text2 {
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+        #name1, #name2 {
+            color: red;
+            font-weight: bold;
+            font-size: 19px;
+        }
+        #name1 {
+            margin-left: 50px;
+        }
+        #name {
+            font-family: serif;
+            font-weight: bold;
+            font-size: 19px;
+            padding-left: 50px;
+            padding-top: 30px;
+            margin-bottom: 10px;
+        }
+        #copyright {
+            color: rgb(155, 154, 154);
+            font-size: 12px;
+            font-family: fantasy;
+            font-weight: bold;
+            margin-top: 0px;
+            padding-top: 0px;
         }
     </style>
 </head>
@@ -91,35 +133,63 @@
                 <td id="right">&#36; 1.00</td>
             </tr>
         </table>
-        <tr>
-            <h2>Your headline goes here</h2>
-        </tr>
-        <tr>
-            <td>
-                <tr>
-                    <img src="image/pic.png" alt="insert-here"/>
-                </tr>
-                <tr>
-                    <p id="coupon">- Coupon -</p>    
-                </tr>
-            </td>
-            <td> 
-                <h3>Bibbity bobbity</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus nunc risus, in aliquam leo cursus quis. Nulla sollicitudin, arcu ac volutpat viverra, ipsum nibh accumsan neque, tristique vehicula nisi nisl ac arcu. Cras sed lectus dapibus, vehicula risus sed, convallis diam. Vestibulum convallis risus id scelerisque finibus. Quisque facilisis erat et turpis dapibus pharetra. Suspendisse commodo felis vitae diam efficitur, et viverra dui aliquet. Praesent finibus eget dui ut rhoncus. 
-                </p>
-            </td>
-            <td>
-                <h3>Bibbity bobbity</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus nunc risus, in aliquam leo cursus quis. Nulla sollicitudin, arcu ac volutpat viverra, ipsum nibh accumsan neque, tristique vehicula nisi nisl ac arcu. Cras sed lectus dapibus, vehicula risus sed, convallis diam. Vestibulum convallis risus id scelerisque finibus. Quisque facilisis erat et turpis dapibus pharetra. Suspendisse commodo felis vitae diam efficitur, et viverra dui aliquet. Praesent finibus eget dui ut rhoncus. 
-                </p>
-            </td>
-        </tr>
+        <table id="main">
+            <tr>
+                <h2>Your headline goes here</h2>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <img src="image/pic.png" alt="insert-here"/>
+                        </tr>
+                        <tr>
+                            <p id="coupon">- Coupon -</p>    
+                        </tr>
+                    </table>
+                </td>
+                <td> 
+                    <h3 id="name1">Bibbity bobbity Boo -</h3>
+                    <p class="text1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus nunc risus, in aliquam leo cursus quis. Et viverra dui aliquet. Integer rhoncus nunc risus, in aliquam leo cursus quis. Et viverra dui aliquet. Integer rhoncus nunc risus, in aliquam.
+                    </p>
+                    <p class="text1">   
+                        Tristique vehicula nisi nisl ac arcu. Cras sed lectus dapibus, vehicula risus sed.
+                    </p>
+                    <p class="text1">     
+                        Vestibulum convallis risus.
+                    </p>
+                    <p class="text1">      
+                        Quisque facilisis erat et turpis dapibus pharetra. Suspendisse commodo felis vitae diam efficitur.
+                    </p>
+                    <p class="text1">      
+                        Praesent finibus eget dui ut rhoncus. 
+                    </p>
+                </td>
+                <td>
+                    <h3 id="name2">Bibbity bobbity Boo -</h3>
+                    <p class="text2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus nunc risus, in aliquam leo cursus quis. Et viverra dui aliquet. Integer rhoncus nunc risus, in aliquam leo cursus quis. Et viverra dui aliquet.
+                    </p>
+                    <p class="text2">   
+                        Tristique vehicula nisi nisl ac arcu. Cras sed lectus dapibus, vehicula risus sed.
+                    </p>
+                    <p class="text2">     
+                        Vestibulum convallis risus.
+                    </p>
+                    <p class="text2">      
+                        Quisque facilisis erat et turpis dapibus pharetra. Suspendisse commodo felis vitae diam efficitur.
+                    </p>
+                    <p id="name">      
+                        By: Your name
+                    </p>
+                </td>
+            </tr>
+        </table>
 	</table>
-	<table id="copyright">
+	<table>
 		<tr>
-			<td>Copyright &copy; 1993 - 2003, <a href="">Evelina B.</a></td>
+			<td id="copyright">J-34 Copyright &copy; Evelina B.
 		</tr>
 	</table>
 </body>
